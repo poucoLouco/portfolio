@@ -74,11 +74,10 @@ h4 {
 }
 
 .about {
+    
     width: 100%;
     padding: 100px;
     background-color: white;
-    justify-content: space-between;
-
 }
 
 .info {
@@ -87,8 +86,6 @@ h4 {
     justify-content: space-around;
     margin-left: 5%;
     display: inline;
-
-
 }
 
 .aboutMe {
@@ -112,51 +109,15 @@ h4 {
     margin-left: 20%;
     display: inline;
 
-
-
 }
 
-.projects {
-    margin-left: 15%;
-    margin-right: 5%;
-
-}
-
-.one {
-    position: absolute;
-    font-family: Arial;
-}
-
-.bottom-left {
-    position: relative;
-    bottom: 50px;
-    left: 5px;
-    width: 150px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration: solid;
-    background-color: black;
-    color: white;
-    padding-left: 5px;
-    padding-right: 5px;
-}
 
 .one img:hover {
     opacity: 1;
 }
+
 .one img {
-    /* margin-left: 40%;
-    display: block;  */
     opacity: 0.5;
-    /* margin: 50px 50px 50px;
-    width: 600px;
-    height: 500px;  */
-}
-
-
-/* styling for 2nd project */
-.two {
-    position: absolute;
-    font-family: Arial;
 }
 
 .bottom-left {
@@ -170,23 +131,70 @@ h4 {
     color: white;
     padding-left: 5px;
     padding-right: 5px;
+    margin-left: 75px;
 }
 
 .two img:hover {
     opacity: 1;
 }
+
 .two img {
-    /* margin-left: 40%;
-    width: 300px;
-    height: 200px;
-    display: block; */
     opacity: 0.5;
 }
+
 .container {
-    display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
+
+}
+
+.container .one img {
+    width: 500px;
+    height: 300px;
+
+} 
+.container .two img {
+    width: 250px;
+    height: 150px;
+    
+} 
+.workTitle {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 50%; 
+}
+.workTitle h2 { 
+    margin-right: 40%; 
+    margin-left: 25%;
 }
 .container img {
-    width: 150;
-    height: 100px;
+    margin-left: 15%;
 }
+
+.contInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 20%;
+    display: inline;
+}
+.contacts {
+        width: 100%;
+        padding: 100px;
+        background-color: white;
+    }
+    
+    /*
+    .info {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-left: 5%;
+        display: inline;
+    }
+    
+    .aboutMe {
+        margin-left: 15%;
+        margin-right: 5%;
+    
+    } */

@@ -1,14 +1,192 @@
-*{
+* {
     padding: 0;
     margin: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
 }
+
+.backgr {
+    background-image: url("./images/nice.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%
+}
+
 .start {
     height: 100vh;
     width: 100%;
-    background-image: url("./images/vector-astronaut-in-the-galaxy-cartoon\ \(1\).webp");
-    background-size: cover;
-    /* background-repeat: no-repeat; */
-    background-repeat: center;
-  }
+    /* background-image: url("./images/nice.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; */
+    padding-top: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+
+}
+
+.logo img {
+    position: top;
+    width: 150px;
+    height: 75px;
+}
+
+nav ul li a {
+    color: yellow;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 100px;
+    padding-top: 0%;
+}
+
+.welcome {
+    color: white;
+    padding-top: 15%;
+    padding-left: 4%;
+
+}
+
+.name {
+    color: yellow;
+    font-size: 50px;
+    margin: 15px 0px 15px;
+}
+
+h4 {
+    margin: 5px 0px 5px;
+}
+
+.about {
+    width: 100%;
+    padding: 100px;
+    background-color: white;
+    justify-content: space-between;
+
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 5%;
+    display: inline;
+
+
+}
+
+.aboutMe {
+    margin-left: 15%;
+    margin-right: 5%;
+
+}
+
+.aboutWork {
+    width: 100%;
+    padding: 100px;
+    background-color: white;
+    justify-content: space-between;
+
+}
+
+.allWork {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 20%;
+    display: inline;
+
+
+
+}
+
+.projects {
+    margin-left: 15%;
+    margin-right: 5%;
+
+}
+
+.one {
+    position: absolute;
+    font-family: Arial;
+}
+
+.bottom-left {
+    position: relative;
+    bottom: 50px;
+    left: 5px;
+    width: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: solid;
+    background-color: black;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.one img:hover {
+    opacity: 1;
+}
+.one img {
+    /* margin-left: 40%;
+    display: block;  */
+    opacity: 0.5;
+    /* margin: 50px 50px 50px;
+    width: 600px;
+    height: 500px;  */
+}
+
+
+/* styling for 2nd project */
+.two {
+    position: absolute;
+    font-family: Arial;
+}
+
+.bottom-left {
+    position: relative;
+    bottom: 50px;
+    left: 5px;
+    width: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: solid;
+    background-color: black;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.two img:hover {
+    opacity: 1;
+}
+.two img {
+    /* margin-left: 40%;
+    width: 300px;
+    height: 200px;
+    display: block; */
+    opacity: 0.5;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.container img {
+    width: 150;
+    height: 100px;
+}

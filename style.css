@@ -132,7 +132,6 @@ h4 {
 }
 
 h5 {
-    background-color: ;
     color: white;
 }
 
@@ -240,4 +239,13 @@ font-size: 150%;
 hr {
     color: white;
     width: 100%
+}
+.aboutMe h4 {
+    background-image: url(./images/fone.png);
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(3, 253, 211);
+    border-width: 1px;
+    padding: 20px;
+    
 }
